@@ -1,0 +1,166 @@
+/* CONFIGS */
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+}
+
+
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100dvh;
+    max-width: 100dvw;
+
+}
+/* CONFIGS */
+
+/* SEÇÃO DAS FOTOS */
+.main-content {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.aside-container {
+    background-color: var(--accentColor);
+    align-items: center;
+    width: 100%;
+}
+
+.aside-infos {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 3rem auto;
+}
+
+.aside-infos .hamburguer {
+    height: 60rem;
+    max-width: 100%;
+    margin-bottom: 5rem;
+}
+
+.aside-infos .icon {
+    height: auto;
+    max-width: 8rem;
+}
+
+.aside-infos div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.aside-infos h2 {
+    color: var(--title-color);
+    max-width: 60%;
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+.aside-infos p {
+    padding: 1rem;
+    max-width: 70%;
+    font-size: 1.7rem;
+    color: var(--text-color);
+}
+
+/* SEÇÃO DAS FOTOS */
+
+/* SEÇÃO DO FORMULÁRIO */
+.register-section {
+    background-color: #000;
+    color: var(--title-color);
+}
+
+.form-register {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 4rem;
+}
+
+.text-block {
+    font-size: 1.6rem;
+    display: block;
+    width: 100%;
+}
+
+label {
+    font-weight: 600;
+}
+
+input, input:hover {
+    color: var(--text-color);
+    margin-top: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #000;
+    border-bottom: 0.5rem solid var(--accentColor);
+}
+
+.space-inputs {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+
+.date-input input,
+.month-input input,
+.year-input input {
+    color: var(--text-color);
+    margin-top: 1.3rem;
+    width: 8rem;
+    height: 4rem;
+    background-color: var(--accentColor);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+    display: block;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-register p {
+    padding: 0.5rem;
+    width: 80%;
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+a {
+    color: var(--primaryColor);
+    text-decoration: none;
+}
+
+.form-register button {
+    align-self: center;
+    color: var(--title-color);
+    background-color: var(--primaryColor);
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 40rem;
+    margin: 2rem 0;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+/* SEÇÃO DO FORMULÁRIO */
