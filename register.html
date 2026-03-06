@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saborize - Cadastre-se</title>
+    <link rel="stylesheet" href="assets/css/register.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <main class="main-content">
+
+        <aside class="aside-container">
+            <div class="aside-infos">
+                <img class="hamburguer" src="assets/img/hamburguer.png" alt="Hamburguer">
+                <div>
+                    <img class="icon" src="assets/svg/icon.svg" alt="Icone Saborize">
+                    <h2>Entre e descubra sabores que inspiram.</h2>
+                </div>
+                <p>Conecte-se para compartilhar receitas, suas comidas favoritas e explore o que está bombando no mundo
+                    da gastronomia</p>
+            </div>
+        </aside>
+
+        <section class="register-section">
+            <form class="form-register" action="/register" method="post">
+                <label class="text-block" for="email">Email ou Conta do Usuário:</label>
+                <input class="text-block" type="email" name="email" id="email" required>
+
+                <label class="text-block" for="user">Nome do Usuário:</label>
+                <input class="text-block" type="text" name="user" id="user" required>
+
+                <label class="text-block" for="password">Senha:</label>
+                <input class="text-block" type="password" name="password" id="password" required>
+
+                <label class="text-block" for="confirm-password">Confirme a senha:</label>
+                <input class="text-block" type="password" name="confirm-password" id="confirm-password" required>
+
+                <div class="space-inputs">
+                    <div class="date-input">
+                        <label for="day">Dia</label>
+                        <input type="number" name="day" id="day" required>
+                    </div>
+                    <div class="month-input">
+                        <label for="month">Mês</label>
+                        <input type="number" name="month" id="month" required>
+                    </div>
+                    <div class="year-input">
+                        <label for="year">Ano</label>
+                        <input type="number" name="year" id="year" required>
+                    </div>
+                </div>
+
+                <p>As pessoas que usam nosso serviço podem ter carregado suas informações de contato no Saborize.
+                </p>
+
+                <p>Ao tocar em Cadastrar, você concorda em criar uma conta e em <a href="#">Termos</a>, <a
+                        href="#">Políticas de Privacidade</a> e <a href="#">Política de Cookies</a>.</p>
+
+                <p>A <a href="#">Política de Privacidade</a> descreve como podemos usar as informações que coletamos quando você cria uma conta. Por exemplo, usamos essas informações para fornecer, personalizar e melhorar nossos produtos, incluindo anúncios.
+                </p>
+
+                <button type="submit">Cadastrar</button>
+
+            </form>
+        </section>
+
+    </main>
+</body>
+
+</html>
